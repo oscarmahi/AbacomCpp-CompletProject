@@ -16,13 +16,13 @@ namespace funcion {
         cout << texto << " " << valor << endl;
     }
 
-    //funcion consultar
+    //funcion consultar y pedir un numero por pantalla
     int consultar(string consulta) {
-        int numero;
+        int numeroPedido;
         cout << consulta << " ";
-        cin >> numero;
+        cin >> numeroPedido;
 
-        return numero;
+        return numeroPedido;
     }
 
     //funcion para inicializar el numero aleatorio
